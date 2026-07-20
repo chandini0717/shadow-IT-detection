@@ -1,0 +1,9 @@
+cd /d C:\Users\Chandini\OneDrive\Desktop\shadow-it-platform\backend
+python app.py{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["react", "oxc"],
+  "rules": {
+    "react/rules-of-hooks": "error",
+    "react/only-export-components": ["warn", { "allowConstantExport": true }]
+  }
+}
